@@ -4,12 +4,12 @@ import {easeInOut, motion} from "framer-motion"
 import emailjs from "@emailjs/browser"
 emailjs.init(import.meta.env.VITE_PUBLIC_KEY);
 import Astra from "../assets/Astra.png"
-
+const PUBLIC_KEY="BThy1iW34lJzrMGOL"
 
 
 const SERVICE_ID = import.meta.env.VITE_SERVICE_ID;
 const TEMPLATE_ID = import.meta.env.VITE_TEMPLATE_ID;
-const PUBLIC_KEY = import.meta.env.VITE_PUBLIC_KEY;
+//const PUBLIC_KEY = import.meta.env.VITE_PUBLIC_KEY;
 
 export default function Contact() {
   const [formData, setFormData]=useState({
